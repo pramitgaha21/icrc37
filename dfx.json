@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "icrc37_backend": {
+      "candid": "src/icrc37_backend/icrc37_backend.did",
+      "package": "icrc37_backend",
+      "type": "rust"
+    },
+    "icrc37_frontend": {
+      "dependencies": [
+        "icrc37_backend"
+      ],
+      "source": [
+        "src/icrc37_frontend/assets"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
