@@ -1,18 +1,9 @@
 {
   "canisters": {
-    "icrc37_backend": {
-      "candid": "src/icrc37_backend/icrc37_backend.did",
-      "package": "icrc37_backend",
+    "icrc37": {
+      "candid": "icrc37/icrc37.did",
+      "package": "icrc37",
       "type": "rust"
-    },
-    "icrc37_frontend": {
-      "dependencies": [
-        "icrc37_backend"
-      ],
-      "source": [
-        "src/icrc37_frontend/assets"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {

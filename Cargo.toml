@@ -1,4 +1,3 @@
 [workspace]
-members = [
-    "src/icrc37_backend",
+members = [ "icrc37",
 ]
